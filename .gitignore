@@ -1,0 +1,75 @@
+# Build directories
+build/
+cmake-build-*/
+.cmake/
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+lorenz_viz
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# External dependencies (users should download these themselves)
+external/glad/
+external/imgui/
+
+# Debug files
+*.log
+debug.log
+*.dSYM/
+
+# ImGui state
+imgui.ini
+
+# Documentation build artifacts
+docs/build/
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Package manager
+.conan/
+vcpkg_installed/
