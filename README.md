@@ -1,6 +1,6 @@
 # Lorenz Attractor Visualization - C++/OpenGL
 
-A decently performing real-time 3D visualization of the Lorenz chaotic attractor, implemented in modern C++17 with OpenGL 4.2. Achieves **116+ FPS** with **15,000+ trajectory points**, representing a **30-100× performance improvement** over Python implementations.
+A decently performing real-time 3D visualization of the Lorenz chaotic attractor, implemented in modern C++17 with OpenGL 4.2. Achieves **116+ FPS** with **15,000+ trajectory points**, representing a **30-100× performance improvement** over initial Python implementations.
 
 ![Lorenz Demo](docs/demo.png)_The iconic butterfly-shaped strange attractor with velocity-based colour gradients_
 
@@ -338,4 +338,5 @@ Contributions welcome! Areas of interest:
 - **OpenGL community** for comprehensive documentation
 - **GLFW/GLAD/GLM maintainers** for excellent libraries
 - **ImGui (Omar Cornut)** for the immediate-mode GUI framework
+
 
